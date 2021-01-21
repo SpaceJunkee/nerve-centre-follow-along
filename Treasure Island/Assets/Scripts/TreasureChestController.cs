@@ -1,0 +1,17 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TreasureChestController : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    private void OnMouseDown()
+    {
+        Debug.Log(gameObject.name + " has been clicked");
+    }
+}
