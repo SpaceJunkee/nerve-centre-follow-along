@@ -208,6 +208,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureChest1
       objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 438a61685e29095408b13338b0fc990a, type: 3}
 --- !u!1 &143497377
@@ -439,6 +474,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b6ee9087bab7f409bb09a697f08bce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 492009022}
+--- !u!95 &492009022
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492009018}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a4559e4637df0a489d0129aed6c2e15, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &666907487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -526,6 +581,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureChest3
       objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 438a61685e29095408b13338b0fc990a, type: 3}
 --- !u!1 &848597644 stripped
@@ -559,6 +629,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b6ee9087bab7f409bb09a697f08bce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 848597648}
+--- !u!95 &848597648
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848597644}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a4559e4637df0a489d0129aed6c2e15, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &920169121
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,8 +715,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.901948, y: 4.130477, z: 2.6150837}
-  m_Center: {x: -0.35971212, y: 1.5652385, z: -0.14039463}
+  m_Size: {x: 4.901948, y: 4.130477, z: 2.7353702}
+  m_Center: {x: -0.35971212, y: 1.5652385, z: -0.08025092}
 --- !u!114 &1200040454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,6 +729,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b6ee9087bab7f409bb09a697f08bce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1200040456}
+--- !u!95 &1200040456
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200040452}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a4559e4637df0a489d0129aed6c2e15, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1378369661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1203,6 +1313,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TreasureChest2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855724178763031100, guid: 438a61685e29095408b13338b0fc990a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 438a61685e29095408b13338b0fc990a, type: 3}
